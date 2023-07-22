@@ -7,7 +7,7 @@ import SecondsCounter from "./seconds_counter";
 //create your first component
 const Home = () => {
 	return (
-		<SecondsCounter seconds={1234} />
+		<SecondsCounter seconds={0} />
 	)
 
 };
