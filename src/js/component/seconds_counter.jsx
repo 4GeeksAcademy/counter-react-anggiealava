@@ -34,28 +34,28 @@ const SecondsCounter = ({ seconds = 0 }) => {
                     <i id="reloj" className="bi-stopwatch"></i>
                 </div>
                 <div className="col digit">
-                    {getDigit(counter, 7)}
-                </div>
-                <div className="col digit">
-                    {getDigit(counter, 6)}
-                </div>
-                <div className="col digit">
-                    {getDigit(counter, 5)}
-                </div>
-                <div className="col digit">
-                    {getDigit(counter, 4)}
-                </div>
-                <div className="col digit">
-                    {getDigit(counter, 3)}
-                </div>
-                <div className="col digit">
-                    {getDigit(counter, 2)}
+                    {getDigit(counter, 0)}
                 </div>
                 <div className="col digit">
                     {getDigit(counter, 1)}
                 </div>
                 <div className="col digit">
-                    {getDigit(counter, 0)}
+                    {getDigit(counter, 2)}
+                </div>
+                <div className="col digit">
+                    {getDigit(counter, 3)}
+                </div>
+                <div className="col digit">
+                    {getDigit(counter, 4)}
+                </div>
+                <div className="col digit">
+                    {getDigit(counter, 5)}
+                </div>
+                <div className="col digit">
+                    {getDigit(counter, 6)}
+                </div>
+                <div className="col digit">
+                    {getDigit(counter, 7)}
                 </div>
 
             </div>
